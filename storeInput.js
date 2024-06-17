@@ -1,4 +1,5 @@
 let button = document.querySelector("button");
+let myVar = document.querySelector(".user-imput");
 
 button.addEventListener("click", function() {
     let text;
@@ -6,11 +7,15 @@ button.addEventListener("click", function() {
     let email;
     let date;
     
+
+    
     // 1. Update the four variables - text, number, email, and date.
     //  - Save the value of the four different inputs.
     //  - Go to the html to use the class names.
-    
-
+    text = document.querySelector(".text").value;
+    number = document.querySelector(".number").value;
+    email = document.querySelector(".email").value;
+    date = document.querySelector(".date").value;
     
     
     
